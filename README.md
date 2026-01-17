@@ -1,34 +1,34 @@
 # Restaurant Rating Prediction using Machine Learning
 
 ## Problem Statement
-Predict the aggregate rating of restaurants based on cost, service availability, location, and user engagement metrics.
+Develop a machine learning model to predict the aggregate rating of restaurants using features such as pricing, service availability, location, and user engagement metrics.
 
 ## Dataset
-A restaurant dataset containing pricing, service features, location details, and user ratings.
+A real-world restaurant dataset containing information on pricing, service features, location details, and user-generated ratings.
 
-## Approach
-- Data cleaning and preprocessing
-- Removal of unrated restaurants (rating = 0)
-- Feature encoding
-- Model training and comparison
+## Methodology
+- Data inspection and preprocessing
+- Removal of unrated restaurants (aggregate rating = 0)
+- Encoding of categorical features
+- Train–test split and fair model comparison
 
-## Models Used
+## Models Implemented
 - Linear Regression (Baseline)
 - Decision Tree Regressor
 - Random Forest Regressor (Final Model)
 
 ## Results
-Random Forest achieved the best performance with:
-- R² Score: 0.59
-- Mean Squared Error: 0.125
+The Random Forest Regressor achieved the best performance:
+- **R² Score:** 0.59  
+- **Mean Squared Error:** 0.125  
 
 ## Key Insights
-- User votes and pricing have the strongest influence on ratings.
-- Tree-based models outperform linear models for this problem.
+- User engagement (votes) and pricing-related features have the strongest influence on restaurant ratings.
+- Tree-based ensemble models significantly outperform linear models for this prediction task.
 
 ## Limitations
-- Subjective nature of ratings
-- Limited feature representation
+- Restaurant ratings are subjective and influenced by factors not present in the dataset.
+- Location information is encoded categorically and does not capture geographic proximity.
 
 ## Tools & Libraries
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
