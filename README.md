@@ -1,4 +1,5 @@
 # Restaurant Rating Prediction using Machine Learning
+![Python](https://img.shields.io/badge/Python-3.x-blue)
 
 ## Problem Statement
 Develop a machine learning model to predict the aggregate rating of restaurants using features such as pricing, service availability, location, and user engagement metrics.
